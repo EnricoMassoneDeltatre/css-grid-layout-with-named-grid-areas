@@ -46,3 +46,32 @@ nav {
 .sidebar-bottom {
   grid-area: aside2;
 }
+
+.page-heading {
+  margin: 0;
+}
+
+.site-nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5em;
+  border-radius: 0.2em;
+  background-color: #5f4b44;
+}
+
+.site-nav > li + li {
+  margin-left: 1.5em;
+}
+
+.site-nav > .nav-right {
+  margin-left: auto;
+}
+
+.site-nav > li > a {
+  text-decoration: none;
+  display: block;
+  padding: 0.5em 1em;
+  background-color: #cc6b5a;
+  color: white;
+}
