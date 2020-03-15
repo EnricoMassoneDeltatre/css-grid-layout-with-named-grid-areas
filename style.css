@@ -75,3 +75,74 @@ nav {
   background-color: #cc6b5a;
   color: white;
 }
+
+.tile {
+  background-color: white;
+  padding: 1.5em;
+}
+
+.tile > :first-child {
+  margin-top: 0;
+}
+
+.tile * + * {
+  margin-top: 1.5em;
+}
+
+.login-form h3 {
+  text-align: right;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.login-form input:not([type="checkbox"]):not([type="radio"]) {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.login-form button {
+  cursor: pointer;
+  padding: 0.5em 1em;
+  background-color: white;
+  border: 1px solid #cc6b5a;
+  margin-top: 1em;
+}
+
+.centered {
+  text-align: center;
+}
+
+.cost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.7;
+}
+
+.cost > span {
+  margin-top: 0;
+}
+
+.cost-currency {
+  font-size: 2rem;
+}
+
+.cost-dollars {
+  font-size: 4rem;
+}
+
+.cost-cents {
+  font-size: 1.5rem;
+  align-self: flex-start;
+}
+
+.cta-button {
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background-color: #cc6b5a;
+  color: white;
+}
